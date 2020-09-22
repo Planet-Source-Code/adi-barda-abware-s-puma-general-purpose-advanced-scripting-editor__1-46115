@@ -1,0 +1,11 @@
+xml;SaveBinaryData;1;(ByVal ItemPath As String, ByVal FilePath As String) As Boolean
+xml;AddItem;1;(ByVal Name As String, Optional ByVal Value As String = "", Optional ByVal ParentPath As String = "", Optional ByVal SetStructure As Boolean = False) As Boolean
+xml;OptionBase;0;Long
+xml;DefaultParentElement;0;String
+xml;DeleteItem;1;(ByVal Item As String, Optional ByVal path As String = "") As Boolean
+xml;FindItems;1;(ByVal Item As String, ByVal Criteria As String, Optional ByVal path As String = "") As Variant
+xml;GetItem;1;(ByVal Item As String, Optional ByVal path As String = "", Optional ByVal GetStructure As Boolean = False) As String
+xml;GetRecordCount;1;(Optional ByVal RecordName As String = "", Optional ByVal ParentPath As String = "") As Long
+xml;SetItemValue;1;(ByVal Item As String, ByVal Value As String, Optional ByVal path As String = "") As Boolean
+xml;SetXMLDoc;1;(ByVal xml As String) As Boolean
+xml;xml;0;String

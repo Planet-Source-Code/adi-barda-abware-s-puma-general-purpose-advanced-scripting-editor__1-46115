@@ -1,0 +1,16 @@
+[History]
+B0=Puma/CSequence/StopSequence
+B1=Puma/CSequence/Class_Terminate
+B2=Puma/CSequence/FireMessage
+B3=Puma/CSequence/LoadMessageFromFile
+B4=Puma/CSequence/ActivateWaitForMsg
+B5=Puma/frmScripts/sizeControls
+B6=Puma/frmScripts/imgSplitter_MouseUp
+B7=Puma/frmScripts/Form_Activate
+B8=Puma/frmScripts/FlashWorkLed
+B9=Puma/frmScripts
+B10=Puma/frmScripts/InitEditor
+B11=Puma/frmScripts/Form_Load
+B12=Puma/frmScripts/Form_Resize
+B13=Puma/frmScripts/imgSplitter_MouseMove
+B14=Puma/frmScripts/imgSplitter_MouseDown

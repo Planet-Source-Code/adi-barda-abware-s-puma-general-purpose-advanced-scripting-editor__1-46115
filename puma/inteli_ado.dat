@@ -1,0 +1,4 @@
+ado;ActiveConnection;1;Returns the active connection
+ado;ConnectString;0;Type the connection string for your database
+ado;Execute;1;(ByVal pSQL As String, Optional pCloseConnection As Boolean = True) As Boolean
+ado;RecordsetGet;1;(ByVal pSQL As String, Optional pOpenMode As CursorTypeEnum = adOpenForwardOnly, Optional pLockType As LockTypeEnum = adLockReadOnly, Optional pCursorLocation As CursorLocationEnum = adUseClient, Optional pCloseConnection As Boolean = True, Optional pConnection As ADODB.Connection) As ADODB.Recordset
