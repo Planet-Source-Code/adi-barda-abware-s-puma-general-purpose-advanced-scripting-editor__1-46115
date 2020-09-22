@@ -1,0 +1,15 @@
+system;AppPath;1
+system;Wait;1;(ByVal ms As Long)
+system;StopSequence;1
+system;DebugPrint;1;(ByVal str As String)
+system;SysDoEvents;1
+system;RunExeFile;1;(ByVal Path As String)
+system;FileExists;1;(ByVal path As String) As Boolean
+system;DeleteFile;1;(ByVal path As String)
+seq;RunScript;1;(ByVal ScriptKey As String, ByVal ScriptType As String, ByVal params As String) As Boolean
+seq;SEQUENCE_STOP
+seq;FireMessage;1;(ByVal path As String, ByVal queue As String, ByVal QueueType As Long: 1=msmq 2=mqseries, Optional ByVal Transactional As Boolean = True)  
+seq;FireText;1;(ByVal text As String, ByVal queue As String, ByVal queue_type As Long, Optional ByVal Transactional As Boolean = True)
+seq;LoadMessageFromFile;1;(ByVal path As String) As String
+seq;CopyXmlFields;1;(ByRef Fields As Variant, ByVal SrcXML As String, ByVal SrcPath As String, ByVal DestXML As String, ByVal DestPath As String) As String
+reg;QueryValue;1;(Byref sKeyName As String, Byref sValueName As String) As Variant
